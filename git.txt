@@ -1,0 +1,13 @@
+a)    Open git bash Prompt
+    b)    Type ssh-keygen -o -t rsa -b 4096 -C "ashikanik32@gmail.com" and hit enter until done
+   c) Open a browser and navigate to https://github.com/settings/keys and click 'New SSH Key'    
+  d)   Then type clip < ~/.ssh/id_rsa.pub and hit enter/return key
+      
+    f) Go to Github Tab then click 'Key' input then press Ctrl + V
+   g)  git config --global user.email "you@example.com"
+         git config --global user.name "Your Name"
+ h) Testing your SSH connection: ssh -T git@github.com
+
+git config --global user.email "ashikanik32@gmail.com"
+git config --global user.name "Ashik Iqbal"
+ssh -T git@github.com
